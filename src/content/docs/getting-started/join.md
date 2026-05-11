@@ -7,16 +7,17 @@ description: Connect to Yuumiverse and get started.
 
 | Setting | Value |
 |---------|-------|
-| **IP** | `play.yuumiverse.gg` |
-| **Version** | Java Edition 1.21 |
+| **IP** | `play.yuumiverse.online` |
+| **Website** | [play.yuumiverse.online](https://play.yuumiverse.online) |
+| **Version** | Java Edition 1.21.11 |
 | **Modded?** | No — pure plugins |
 
 ## Step-by-Step
 
 1. Open the Minecraft Launcher
-2. Select **Java Edition** and launch version **1.21**
+2. Select **Java Edition** and launch version **1.21.11**
 3. Click **Multiplayer** → **Add Server**
-4. Enter `play.yuumiverse.gg` as the Server Address
+4. Enter `play.yuumiverse.online` as the Server Address
 5. Click **Join Server**
 
 ## First Time Here?
@@ -29,5 +30,5 @@ description: Connect to Yuumiverse and get started.
 ## Need Help?
 
 - Ask in-game — there's almost always someone around
-- Join our [Discord](https://discord.gg/yuumiverse)
+- Join our [Discord](https://discord.gg/5DhdfsCcAw)
 - Check the [FAQ](/getting-started/faq/)

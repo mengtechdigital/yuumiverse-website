@@ -9,8 +9,8 @@ export default defineConfig({
 			title: 'Yuumiverse',
 			description: 'A semi-vanilla Minecraft SMP where plugins change everything. Community-first. Zero pay2win.',
 			social: [
-				{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' },
-				{ icon: 'discord', label: 'Discord', href: 'https://discord.gg/yuumiverse' },
+				{ icon: 'github', label: 'GitHub', href: 'https://github.com/mengtechdigital/yuumiverse-website' },
+				{ icon: 'discord', label: 'Discord', href: 'https://discord.gg/5DhdfsCcAw' },
 			],
 			customCss: [
 				'./src/styles/custom.css',

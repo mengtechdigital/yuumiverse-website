@@ -9,16 +9,17 @@ description: Frequently asked questions about Yuumiverse.
 
 ## Do I need mods to play?
 
-**No.** Yuumiverse is entirely plugin-based. Just connect with vanilla Minecraft 1.21 Java Edition.
+**No.** Yuumiverse is entirely plugin-based. Just connect with vanilla Minecraft Java Edition 1.21.11.
 
 ## Can I play on Bedrock?
 
-**Not currently.** We only support Java Edition 1.21.
+**Not currently.** We only support Java Edition 1.21.11.
 
 ## What plugins does the server have?
 
-We run 9 custom plugins built specifically for Yuumiverse:
+We run **9 custom plugins** built specifically for Yuumiverse, plus **35+ public plugins** for protection, chat, world management, and quality of life.
 
+**Custom plugins:**
 - [Yuumi](/plugins/yuumi/) — Companion attachment
 - [Anglers](/plugins/anglers/) — Fishing overhaul
 - [CropFarm](/plugins/cropfarm/) — Custom crops
@@ -28,6 +29,8 @@ We run 9 custom plugins built specifically for Yuumiverse:
 - [StackPlus](/plugins/stackplus/) — 99 item stacks
 - [Terraform](/plugins/terraform/) — Terraforming tools
 - [WildHarvest](/plugins/wildharvest/) — TreeFeller + VeinMiner
+
+See the full public plugin list on the [Plugin List](/mechanics/plugin-list/) page.
 
 ## How do I claim land?
 
@@ -39,7 +42,7 @@ Yes, but only during **declared wars** between Realms. Random griefing is agains
 
 ## How do I report a bug or player?
 
-Open a ticket in our [Discord](https://discord.gg/yuumiverse) or message a mod in-game.
+Open a ticket in our [Discord](https://discord.gg/5DhdfsCcAw) or message a mod in-game.
 
 ## Is there a world border?
 
