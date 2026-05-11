@@ -96,6 +96,30 @@
 }
 
 /* ============================================================
+   FEATURE CARDS — Colored top borders & icons
+   ============================================================ */
+.features-section .card {
+	border-top: 3px solid var(--yuumi-primary);
+}
+
+.features-section .card:nth-child(6n+1) svg { color: var(--yuumi-primary); }
+
+.features-section .card:nth-child(6n+2) { border-top-color: var(--yuumi-accent); }
+.features-section .card:nth-child(6n+2) svg { color: var(--yuumi-accent); }
+
+.features-section .card:nth-child(6n+3) { border-top-color: var(--yuumi-accent-cyan); }
+.features-section .card:nth-child(6n+3) svg { color: var(--yuumi-accent-cyan); }
+
+.features-section .card:nth-child(6n+4) { border-top-color: var(--yuumi-accent-pink); }
+.features-section .card:nth-child(6n+4) svg { color: var(--yuumi-accent-pink); }
+
+.features-section .card:nth-child(6n+5) { border-top-color: var(--yuumi-primary-light); }
+.features-section .card:nth-child(6n+5) svg { color: var(--yuumi-primary-light); }
+
+.features-section .card:nth-child(6n+6) { border-top-color: #9B8AF5; }
+.features-section .card:nth-child(6n+6) svg { color: #9B8AF5; }
+
+/* ============================================================
    PLUGIN TAGS
    ============================================================ */
 .plugin-tag {
