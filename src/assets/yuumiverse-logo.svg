@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 40" fill="none">
+  <text x="0" y="30" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="800" fill="#a78bfa">Yuumiverse</text>
+  <circle cx="185" cy="20" r="8" fill="#f59e0b" opacity="0.9"/>
+  <circle cx="185" cy="20" r="3" fill="#1e1b4b"/>
+</svg>
