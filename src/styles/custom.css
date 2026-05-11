@@ -183,6 +183,55 @@ a {
 }
 
 /* ============================================================
+   BUTTONS — Prevent a:hover from destroying button contrast
+   Starlight's button rules are inside @layer, so our unlayered
+   a:hover overrides them. We must explicitly set button colors.
+   ============================================================ */
+
+/* Light mode primary: dark blue bg, white text */
+[data-theme='light'] .sl-link-button.primary {
+	background: var(--sl-color-accent);
+	border-color: var(--sl-color-accent);
+	color: #ffffff;
+}
+[data-theme='light'] .sl-link-button.primary:hover {
+	background: var(--sl-color-gray-6);
+	border-color: var(--sl-color-gray-6);
+	color: #ffffff;
+}
+
+/* Dark mode primary: light blue bg, near-black text */
+[data-theme='dark'] .sl-link-button.primary {
+	background: var(--sl-color-accent);
+	border-color: var(--sl-color-accent);
+	color: var(--sl-color-black);
+}
+[data-theme='dark'] .sl-link-button.primary:hover {
+	background: var(--sl-color-gray-4);
+	border-color: var(--sl-color-gray-4);
+	color: var(--sl-color-black);
+}
+
+/* Secondary / Minimal: always white text, prevent a:hover override */
+[data-theme='light'] .sl-link-button.secondary,
+[data-theme='light'] .sl-link-button.minimal {
+	color: #ffffff;
+}
+[data-theme='light'] .sl-link-button.secondary:hover,
+[data-theme='light'] .sl-link-button.minimal:hover {
+	color: #ffffff;
+}
+
+[data-theme='dark'] .sl-link-button.secondary,
+[data-theme='dark'] .sl-link-button.minimal {
+	color: var(--sl-color-white);
+}
+[data-theme='dark'] .sl-link-button.secondary:hover,
+[data-theme='dark'] .sl-link-button.minimal:hover {
+	color: var(--sl-color-white);
+}
+
+/* ============================================================
    TABLES
    ============================================================ */
 th {
