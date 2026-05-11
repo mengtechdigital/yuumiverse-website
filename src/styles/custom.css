@@ -1,42 +1,45 @@
-/* Yuumiverse Custom Theme */
+/* Yuumiverse Custom Theme — inspired by Yuumi pixel art */
 
 :root {
-	--yuumi-primary: #7c3aed;
-	--yuumi-primary-light: #a78bfa;
-	--yuumi-accent: #f59e0b;
-	--yuumi-dark: #1e1b4b;
-	--yuumi-surface: #0f0a1a;
+	--yuumi-primary: #6B7BFF;
+	--yuumi-primary-light: #A0B0FF;
+	--yuumi-accent: #F5D76E;
+	--yuumi-accent-pink: #E06B8A;
+	--yuumi-accent-cyan: #4ECDC4;
+	--yuumi-dark: #1E2547;
+	--yuumi-surface: #0F1220;
 }
 
-/* Starlight CSS Custom Properties */
+/* Starlight CSS Custom Properties — Light Theme */
 [data-theme='light'] {
-	--sl-color-accent-low: #ede9fe;
-	--sl-color-accent: #7c3aed;
-	--sl-color-accent-high: #4c1d95;
+	--sl-color-accent-low: #E8ECFF;
+	--sl-color-accent: #5B6BEF;
+	--sl-color-accent-high: #3A48B0;
 	--sl-color-white: #ffffff;
-	--sl-color-gray-1: #f5f3ff;
-	--sl-color-gray-2: #e5e1ff;
-	--sl-color-gray-3: #c4b5fd;
-	--sl-color-gray-4: #8b5cf6;
-	--sl-color-gray-5: #6d28d9;
-	--sl-color-gray-6: #4c1d95;
-	--sl-color-gray-7: #2e1065;
-	--sl-color-black: #1e1b4b;
+	--sl-color-gray-1: #F0F2FF;
+	--sl-color-gray-2: #D8DEFF;
+	--sl-color-gray-3: #A0B0FF;
+	--sl-color-gray-4: #7B8CFF;
+	--sl-color-gray-5: #5B6BEF;
+	--sl-color-gray-6: #3A48B0;
+	--sl-color-gray-7: #1E2547;
+	--sl-color-black: #1E2547;
 }
 
+/* Starlight CSS Custom Properties — Dark Theme */
 [data-theme='dark'] {
-	--sl-color-accent-low: #2e1065;
-	--sl-color-accent: #a78bfa;
-	--sl-color-accent-high: #c4b5fd;
-	--sl-color-white: #f5f3ff;
-	--sl-color-gray-1: #e5e1ff;
-	--sl-color-gray-2: #c4b5fd;
-	--sl-color-gray-3: #a78bfa;
-	--sl-color-gray-4: #8b5cf6;
-	--sl-color-gray-5: #6d28d9;
-	--sl-color-gray-6: #4c1d95;
-	--sl-color-gray-7: #2e1065;
-	--sl-color-black: #0f0a1a;
+	--sl-color-accent-low: #1E2547;
+	--sl-color-accent: #8B9EFF;
+	--sl-color-accent-high: #C5CDFF;
+	--sl-color-white: #F0F2FF;
+	--sl-color-gray-1: #D8DEFF;
+	--sl-color-gray-2: #A0B0FF;
+	--sl-color-gray-3: #8B9EFF;
+	--sl-color-gray-4: #6B7BFF;
+	--sl-color-gray-5: #5B6BEF;
+	--sl-color-gray-6: #3A48B0;
+	--sl-color-gray-7: #1E2547;
+	--sl-color-black: #0A0E1A;
 }
 
 /* Hero styling */
@@ -47,7 +50,7 @@
 }
 
 .hero-title {
-	background: linear-gradient(90deg, #c4b5fd, #f59e0b);
+	background: linear-gradient(90deg, #A0B0FF, #F5D76E);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -60,7 +63,7 @@
 
 .card:hover {
 	transform: translateY(-4px);
-	box-shadow: 0 8px 30px rgba(124, 58, 237, 0.15);
+	box-shadow: 0 8px 30px rgba(107, 123, 255, 0.18);
 }
 
 /* Plugin tags */
@@ -97,4 +100,26 @@
 /* Minecraft-style inline code */
 code {
 	font-family: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+/* LinkCard hover accent */
+.starlight-link-card {
+	border-color: var(--sl-color-gray-4);
+	transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.starlight-link-card:hover {
+	border-color: var(--yuumi-primary);
+	box-shadow: 0 4px 20px rgba(107, 123, 255, 0.12);
+}
+
+/* Accent color highlights for interactive elements */
+a:hover {
+	color: var(--yuumi-accent-cyan);
+}
+
+/* Table styling */
+th {
+	background: var(--sl-color-accent-low);
+	color: var(--sl-color-accent-high);
 }
