@@ -7,6 +7,8 @@ Nightfall makes the night something to actually fear. The surface becomes deadly
 
 ## Day / Night Cycle
 
+![Day/Night cycle](/images/mc/nightfall-cycle.svg)
+
 | Phase | Length |
 |-------|--------|
 | **Day** | 30 minutes |

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 140">
+  <rect width="280" height="140" rx="8" fill="#1E2547"/>
+  <text x="12" y="22" fill="#A0B0FF" font-size="13" font-weight="bold" font-family="sans-serif">Terraform Hoe</text>
+  <rect x="12" y="34" width="156" height="78" rx="4" fill="#2D3561" stroke="#3A48B0" stroke-width="1"/>
+  <image href="/images/mc/diamond_block.png" x="18" y="40" width="44" height="44"/>
+  <image href="/images/mc/diamond_block.png" x="68" y="40" width="44" height="44"/>
+  <image href="/images/mc/diamond_block.png" x="118" y="40" width="44" height="44"/>
+  <image href="/images/mc/diamond_block.png" x="18" y="90" width="44" height="44"/>
+  <image href="/images/mc/netherite_hoe.png" x="68" y="90" width="44" height="44"/>
+  <image href="/images/mc/diamond_block.png" x="118" y="90" width="44" height="44"/>
+  <image href="/images/mc/diamond_block.png" x="18" y="140" width="44" height="44" transform="translate(0, -50)"/>
+  <image href="/images/mc/diamond_block.png" x="68" y="140" width="44" height="44" transform="translate(0, -50)"/>
+  <image href="/images/mc/diamond_block.png" x="118" y="140" width="44" height="44" transform="translate(0, -50)"/>
+  <text x="12" y="128" fill="#7B8CFF" font-size="9" font-family="sans-serif">8 Diamond Blocks + 1 Netherite Hoe</text>
+</svg>

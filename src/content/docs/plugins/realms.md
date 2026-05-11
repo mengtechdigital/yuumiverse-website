@@ -17,6 +17,8 @@ Realm names must be 3–16 characters (letters, numbers, dash, underscore). Rese
 
 Power determines how many chunks your realm can claim. It's the core resource of Realms.
 
+![Power blocks](/images/mc/realms-power.svg)
+
 | Source | Power Value |
 |--------|------------|
 | **Base power** | 16 chunks |

@@ -36,6 +36,8 @@ Every crop belongs to a tier that defines its grow time, planting cap, and XP dr
 
 Every crop uses the same recipe pattern: **1 input item → seeds**.
 
+![CropFarm recipe pattern](/images/mc/cropfarm-recipe.svg)
+
 | Input | Seeds Produced |
 |-------|---------------|
 | Most items | 4 seeds |

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120">
+  <rect width="400" height="120" rx="8" fill="#1E2547"/>
+  <text x="16" y="24" fill="#A0B0FF" font-size="14" font-weight="bold" font-family="sans-serif">CropFarm Recipe Pattern</text>
+  
+  <!-- Arrow -->
+  <text x="70" y="70" fill="#F5D76E" font-size="28" font-family="sans-serif">→</text>
+  
+  <!-- Input -->
+  <rect x="16" y="44" width="44" height="44" rx="4" fill="#2D3561" stroke="#7B8CFF" stroke-width="2"/>
+  <image href="/images/mc/diamond.png" x="20" y="48" width="36" height="36"/>
+  <text x="38" y="102" fill="#7B8CFF" font-size="9" text-anchor="middle" font-family="sans-serif">1 Item</text>
+  
+  <!-- Output -->
+  <rect x="108" y="44" width="44" height="44" rx="4" fill="#2D3561" stroke="#4ECDC4" stroke-width="2"/>
+  <image href="/images/mc/wheat_seeds.png" x="112" y="48" width="36" height="36"/>
+  <text x="130" y="102" fill="#4ECDC4" font-size="9" text-anchor="middle" font-family="sans-serif">4 Seeds</text>
+  
+  <!-- Examples -->
+  <text x="180" y="45" fill="#7B8CFF" font-size="10" font-family="sans-serif">Examples:</text>
+  
+  <g transform="translate(180, 54)">
+    <image href="/images/mc/diamond.png" x="0" y="0" width="20" height="20"/>
+    <text x="26" y="14" fill="#A0B0FF" font-size="10" font-family="sans-serif">→ 4 Diamond Seeds</text>
+  </g>
+  <g transform="translate(180, 78)">
+    <image href="/images/mc/gold_ingot.png" x="0" y="0" width="20" height="20"/>
+    <text x="26" y="14" fill="#A0B0FF" font-size="10" font-family="sans-serif">→ 4 Gold Seeds</text>
+  </g>
+  <g transform="translate(180, 102)">
+    <image href="/images/mc/coal.png" x="0" y="0" width="20" height="20"/>
+    <text x="26" y="14" fill="#A0B0FF" font-size="10" font-family="sans-serif">→ 4 Coal Seeds</text>
+  </g>
+</svg>
