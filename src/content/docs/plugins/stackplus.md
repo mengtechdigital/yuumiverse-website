@@ -1,6 +1,6 @@
 ---
 title: StackPlus
-description: Raises the max item stack size up to 99.
+description: Raises the max item stack size up to 67.
 ---
 
 StackPlus increases Minecraft's default stack limits, making inventory management far less tedious.
@@ -9,14 +9,19 @@ StackPlus increases Minecraft's default stack limits, making inventory managemen
 
 | Item Type | Vanilla Stack | StackPlus Stack |
 |-----------|--------------|-----------------|
-| Most items | 64 | **99** |
-| Tools/Weapons | 1 | 1 (unchanged) |
-| Armor | 1 | 1 (unchanged) |
+| Most items | 64 | **67** |
+| Tools / Weapons / Armor | 1 | 1 (unchanged) |
 | Potions | 1 | 1 (unchanged) |
-| Buckets | 16 | 16 (unchanged) |
-| Ender Pearls | 16 | **99** |
-| Snowballs | 16 | **99** |
-| Eggs | 16 | **99** |
+| Totems | 1 | 1 (unchanged) |
+| Ender Pearls | 16 | **67** |
+| Snowballs | 16 | **67** |
+| Eggs | 16 | **67** |
+| Buckets | 16 | **67** |
+| Signs | 16 | **67** |
+
+:::tip
+The max stack size is capped at **67** (not 99) because values above 64 cause client desync and ghost stacks.
+:::
 
 ## Commands
 
@@ -28,13 +33,14 @@ StackPlus increases Minecraft's default stack limits, making inventory managemen
 ## How It Works
 
 StackPlus hooks into item stacking logic at the server level. This means:
-- Stacks of 99 work in **chests, hoppers, droppers, and dispensers**
+- Stacks of 67 work in **chests, hoppers, droppers, and dispensers**
 - Villager trades still respect normal limits
-- Item entities on the ground can stack to 99
+- Item entities on the ground can stack to 67
 - The `/stackplus apply` command updates existing items in your inventory to the new max
 
 ## Tips
 
 - Run `/stackplus apply` after joining if your inventory still shows old stack limits
-- Mining trips become much more efficient — carry 99 stacks of cobblestone instead of 64
+- Mining trips become much more efficient — carry 67 stacks of cobblestone instead of 64
 - Farms and storage systems benefit massively from the increased density
+- Unstackables (tools, armor, potions) remain at 1 to prevent weird behavior
